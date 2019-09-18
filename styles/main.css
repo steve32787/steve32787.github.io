@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+font-family: 'Lato', 'Arial', Sans-serif;
+font-weight: 300;
+font-size: 20px;
+color: rgba(61, 60, 60, 0.589)
+
+}
+
+
+header {
+         background-image: linear-gradient(rgba(247, 243, 243, 0.438), rgba(233, 231, 231, 0.664)), url(img/city.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 60vh; 
+        width: 60vw;
+        margin: auto;
+               }
+
+.core {
+    background-image: url(img/trees.png);
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    width: 60vw;
+    margin: auto;
+}
+.techb {
+    background-image: linear-gradient(rgba(247, 243, 243, 0.637), rgba(241, 239, 239, 0.801)), url(img/blue.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    width: 60vw;
+    margin: auto;
+}
+.tech {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.h1blog {
+    color: rgba(26, 21, 21, 0.849)
+}
+.atext {
+    color: rgb(39, 117, 81)
+    }
+
+.link {
+    font-size: 40px;
+
+}
+
+.cblog {
+    background-color: rgba(102, 16, 16, 0.137)
+}
+
+.learningbody {
+    background-color: rgba(38, 70, 66, 0.164)
+}
+
+.text {
+    margin-bottom: 50px;
+    font-weight: 500;
+    font-size: 20px;
+ }
+
+.top {
+    background-color: rgba(107, 106, 106, 0.842)
+}
+
+.cblog {
+    background-size: cover;
+    background-position: center;
+    height: 60vh; 
+    width: 60vw;
+    margin: auto;
+           }
+
+
+.quote {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:60%;
+    height: 60vh; 
+    width: 60vw;
+}
+
+    .row {
+        max-width: 1140px;
+        margin: 0 auto;
+          }
+
+    .head {
+        float: left;
+        margin: 20px 0px 0px 0px
+        
+    }
+
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 40px;
+    margin-right: 100px;
+    font-size: 20px;
+    color: #fff;
+ }
+
+.main-nav li {
+display: inline-block;
+margin-left: 40px;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+}
+
+a:link {
+    text-decoration: none;
+  }
